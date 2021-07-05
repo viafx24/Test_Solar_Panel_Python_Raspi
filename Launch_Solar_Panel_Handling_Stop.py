@@ -10,7 +10,7 @@ Max_File_Size = 80000000;
 
 print("File Removed!")
 
-ser=serial.Serial('/dev/ttyUSB0',115200, timeout=20)
+ser=serial.Serial('/dev/ttyUSB0',9600, timeout=20)
 ser.flushInput()
 
 time.sleep(2)
